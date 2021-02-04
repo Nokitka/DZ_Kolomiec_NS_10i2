@@ -20,7 +20,7 @@ int main() {
 
 	cout << "Enter text: ";
 	getline(cin, text);
-	cout << "Enter k: ";
+	cout << "Enter ROT: ";
 	cin >> k;
 
 	for (int i = 0; i < text.size(); i++) {
